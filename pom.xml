@@ -1,17 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+=======
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+>>>>>>> develop
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.6.3</version>
+<<<<<<< HEAD
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.qa</groupId>
 	<artifactId>user_app</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>QA-Project-app</name>
+=======
+		<relativePath /> <!-- lookup parent from repository -->
+	</parent>
+	<groupId>com.qa</groupId>
+	<artifactId>QA-project</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>QA-project</name>
+>>>>>>> develop
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
@@ -25,7 +38,15 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+<<<<<<< HEAD
 
+=======
+		<dependency>
+			<groupId>org.modelmapper</groupId>
+			<artifactId>modelmapper</artifactId>
+			<version>2.4.4</version>
+		</dependency>
+>>>>>>> develop
 		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
@@ -36,6 +57,13 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+<<<<<<< HEAD
+=======
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-validation</artifactId>
+		</dependency>
+>>>>>>> develop
 	</dependencies>
 
 	<build>
@@ -47,4 +75,8 @@
 		</plugins>
 	</build>
 
+<<<<<<< HEAD
 </project>
+=======
+</project>
+>>>>>>> develop
