@@ -11,29 +11,29 @@ import com.qa.pokemon_app.exceptions.PokemonNotFoundException;
 
 @Service
 public class PokemonService {
-	
+
 	private PokemonRepository pokemonRepository;
-	
+
 	@Autowired
 	public PokemonService(PokemonRepository pokemonRepository) {
 		this.pokemonRepository = pokemonRepository;
 	}
-    
+
 	public List<Pokemon> getAll() {
 		return pokemonRepository.findAll();
 	}
-	
+
 	public Pokemon getById(Long id) {
 		return pokemonRepository.findById(id).orElseThrow(() -> {
-			return new PokemonNotFoundException("User with id " + id + " does not exist");
+			return new PokemonNotFoundException("Pokemon with id " + id + " does not exist");
 		});
 	}
-	
+
 	public Pokemon create(Pokemon pokemon) {
 		Pokemon savedPokemon = pokemonRepository.save(pokemon);
 		return savedPokemon;
 	}
-	
+
 	public Pokemon update(Long id, Pokemon pokemon) {
 		if (pokemonRepository.existsById(id)) {
 			Pokemon pokemonInDb = pokemonRepository.getById(id);
@@ -45,7 +45,7 @@ public class PokemonService {
 			throw new PokemonNotFoundException("Pokemon with id " + id + " does not exist");
 		}
 	}
-	
+
 	public void delete(Long id) {
 		if (pokemonRepository.existsById(id)) {
 			pokemonRepository.deleteById(id);

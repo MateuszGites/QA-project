@@ -20,25 +20,23 @@ public class Pokemon {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long id;
-	
+
 	@NotNull
 	@Length(min = 1, message = "Pokemon name can't be empty")
 	private String name;
-	
+
 	@NotNull
 	@Length(min = 1, message = "Pokemon needs to have a type")
 	private String type;
-	
+
 	@Max(150)
 	@Min(5)
 	private int level;
-	
-	
+
 	public Pokemon() {
 		super();
 	}
-	
-	
+
 	public Pokemon(long id, String name, String type, int level) {
 		super();
 		this.id = id;
@@ -47,7 +45,6 @@ public class Pokemon {
 		this.level = level;
 	}
 
-
 	public Pokemon(String name, String type, int level) {
 		super();
 		this.name = name;
@@ -55,44 +52,47 @@ public class Pokemon {
 		this.level = level;
 	}
 
-
 	public long getId() {
 		return id;
 	}
+
 	public void setId(long id) {
 		this.id = id;
 	}
+
 	public String getName() {
 		return name;
 	}
+
 	public void setName(String name) {
 		this.name = name;
 	}
+
 	public String getType() {
 		return type;
 	}
+
 	public void setType(String type) {
 		this.type = type;
 	}
+
 	public int getLevel() {
 		return level;
 	}
+
 	public void setLevel(int level) {
 		this.level = level;
 	}
-
 
 	@Override
 	public String toString() {
 		return "Pokemon [id=" + id + ", name=" + name + ", type=" + type + ", level=" + level + "]";
 	}
 
-
 	@Override
 	public int hashCode() {
 		return Objects.hash(id, name, type, level);
 	}
-
 
 	@Override
 	public boolean equals(Object obj) {
@@ -103,7 +103,8 @@ public class Pokemon {
 		if (getClass() != obj.getClass())
 			return false;
 		Pokemon other = (Pokemon) obj;
-		return id == other.id && Objects.equals(name, other.name) && Objects.equals(type, other.type) && Objects.equals(level, other.level);
+		return id == other.id && Objects.equals(name, other.name) && Objects.equals(type, other.type)
+				&& Objects.equals(level, other.level);
 	}
-	
+
 }

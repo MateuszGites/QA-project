@@ -1,13 +1,14 @@
-package com.qa;
+package com.qa.pokemon_app;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class QaProjectApplicationTests {
+public class PokemonAppApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
+		@Test
+		void contextLoads() {
+		}
+
 
 }
