@@ -28,7 +28,7 @@ I have succesfully created app but had some issues with GitHub Repository. It to
 ![alt text](https://github.com/MateuszGites/QA-project/blob/main/documents/Postman%20GetAll.png?raw=true)
 
 ### Screenshot of your test results, including coverage report. 
-![alt text]https://github.com/MateuszGites/QA-project/blob/main/documents/tests.png?raw=true)
+![alt text](https://github.com/MateuszGites/QA-project/blob/main/documents/tests.png?raw=true)
 
 ### Link to Jira Board - You must add Morgan Walsh and Jordan Benbelaid as collaborators on your Jira board. 
 https://mateuszbieniek.atlassian.net/jira/software/projects/QP/boards/2
