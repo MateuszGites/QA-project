@@ -1,6 +1,5 @@
-DROP TABLE IF EXISTS `pokemon`;
 
-CREATE TABLE `pokemon` (
+CREATE TABLE IF NOT EXISTS `pokemon` (
 	`id` LONG AUTO_INCREMENT,
     `name` VARCHAR(255) NOT NULL,
     `type` VARCHAR(255) NOT NULL,
