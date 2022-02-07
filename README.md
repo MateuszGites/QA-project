@@ -25,10 +25,10 @@ I have succesfully created app but had some issues with GitHub Repository. It to
 ![alt text](https://github.com/MateuszGites/QA-project/blob/main/documents/Postman%20Delete%20Check.png?raw=true)
 
 ### Screenshots of your database to prove that data is being persisted. 
-![alt text]/image.jpg?raw=true)
+![alt text](https://github.com/MateuszGites/QA-project/blob/main/documents/Postman%20GetAll.png?raw=true)
 
 ### Screenshot of your test results, including coverage report. 
-![alt text]https://github.com/MateuszGites/QA-project/blob/main/documents/tests.png/image.jpg?raw=true)
+![alt text]https://github.com/MateuszGites/QA-project/blob/main/documents/tests.png?raw=true)
 
 ### Link to Jira Board - You must add Morgan Walsh and Jordan Benbelaid as collaborators on your Jira board. 
 https://mateuszbieniek.atlassian.net/jira/software/projects/QP/boards/2
