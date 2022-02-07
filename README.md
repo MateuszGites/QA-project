@@ -10,10 +10,10 @@ I have succesfully created app but had some issues with GitHub Repository. It to
 ### Possible improvements for future revisions of the project. 
 
 ### Screenshots showing your postman requests and the output from the API. 
-
+![alt text](https://github.com/  /image.jpg?raw=true)
 ### Screenshots of your database to prove that data is being persisted. 
-
+![alt text](https://github.com/  /image.jpg?raw=true)
 ### Screenshot of your test results, including coverage report. 
-
+![alt text](https://github.com/  /image.jpg?raw=true)
 ### Link to Jira Board - You must add Morgan Walsh and Jordan Benbelaid as collaborators on your Jira board. 
 https://mateuszbieniek.atlassian.net/jira/software/projects/QP/boards/2
