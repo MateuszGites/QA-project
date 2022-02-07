@@ -1,7 +1,7 @@
 # QA-project
 
 ### Why are we doing this? 
-
+This project is my finnal pass project for the bootcamp. I'm doing it so QA can check my skills and mark me for my progress in codding.
 
 ### How I expected the challenge to go. 
 I expected to have some smaller issues with creating my first app fully working, but wasn't affraid to push my limits.
@@ -10,7 +10,7 @@ I expected to have some smaller issues with creating my first app fully working,
 I have succesfully created app but had some issues with GitHub Repository. It took me few days to resolve merging issues.
 
 ### Possible improvements for future revisions of the project. 
-
+Create more Entities, persissting database and more features!
 
 ### Screenshots showing your postman requests and the output from the API.
 ## POSTMAN GET
