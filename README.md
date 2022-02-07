@@ -15,5 +15,5 @@ I have succesfully created app but had some issues with GitHub Repository. It to
 
 ### Screenshot of your test results, including coverage report. 
 
-## Link to Jira Board - You must add Morgan Walsh and Jordan Benbelaid as collaborators on your Jira board. 
+### Link to Jira Board - You must add Morgan Walsh and Jordan Benbelaid as collaborators on your Jira board. 
 https://mateuszbieniek.atlassian.net/jira/software/projects/QP/boards/2
