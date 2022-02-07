@@ -14,15 +14,15 @@ I have succesfully created app but had some issues with GitHub Repository. It to
 
 ### Screenshots showing your postman requests and the output from the API.
 ## POSTMAN GET
-![alt text]https://github.com/MateuszGites/QA-project/blob/main/documents/Postman%20GetAll.png/image.jpg?raw=true)
-![alt text]https://github.com/MateuszGites/QA-project/blob/main/documents/Postman%20GetById.png/image.jpg?raw=true)
+![alt text](https://github.com/MateuszGites/QA-project/blob/main/documents/Postman%20GetAll.png/image.jpg?raw=true)
+![alt text](https://github.com/MateuszGites/QA-project/blob/main/documents/Postman%20GetById.png/image.jpg?raw=true)
 ## POSTMAN CREATE
-![alt text]https://github.com/MateuszGites/QA-project/blob/main/documents/Postman%20Create.png/image.jpg?raw=true)
+![alt text](https://github.com/MateuszGites/QA-project/blob/main/documents/Postman%20Create.png/image.jpg?raw=true)
 ## POSTMAN UPDATE
-![alt text]https://github.com/MateuszGites/QA-project/blob/main/documents/Postman%20Update.png/image.jpg?raw=true)
+![alt text](https://github.com/MateuszGites/QA-project/blob/main/documents/Postman%20Update.png/image.jpg?raw=true)
 ## POSTMAN DELETE
-![alt text]https://github.com/MateuszGites/QA-project/blob/main/documents/Postman%20Delete.png/image.jpg?raw=true)
-![alt text]https://github.com/MateuszGites/QA-project/blob/main/documents/Postman%20Delete%20Check.png/image.jpg?raw=true)
+![alt text](https://github.com/MateuszGites/QA-project/blob/main/documents/Postman%20Delete.png/image.jpg?raw=true)
+![alt text](https://github.com/MateuszGites/QA-project/blob/main/documents/Postman%20Delete%20Check.png/image.jpg?raw=true)
 
 ### Screenshots of your database to prove that data is being persisted. 
 ![alt text]/image.jpg?raw=true)
