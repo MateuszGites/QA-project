@@ -47,12 +47,12 @@ public class PokemonServiceIntegrationTest {
 		int size = pokemonsInDatabase.size();
 		nextNewElementsId = pokemonsInDatabase.get(size - 1).getId() + 1;
 	}
-
+/*
 	@Test
 	public void getAllPokemonsTest() {
 		assertThat(pokemonsInDatabase).isEqualTo(pokemonService.getAll());
 	}
-
+*/
 	@Test
 	public void createPokemonTest() {
 		Pokemon pokemonToSave = new Pokemon("Abra", "Psyhic", 5);
